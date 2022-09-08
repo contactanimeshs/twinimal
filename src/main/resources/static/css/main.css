@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+.topname {
+    margin-top: 15px;
+    text-transform: lowercase;
+}
+
+.loginbtn {
+
+    width: 140px;
+  height: 45px;
+    /* text-transform: uppercase; */
+    /*text-transform: lowercase; */
+  letter-spacing: 2px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  transform: translateY(-7px);
+  -ms-transform: translateY(-7px);
+  -webkit-transform: translateY(-7px);
+  outline: none;
+    margin: 4em;
+    background-color: #000000;
+    box-shadow: 0px 5px 5px rgba(116, 116, 116, 0.4);
+    /* background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4); */
+    color: #fff;
+
+}
+
+.loginbtn:hover {
+    background-color: #3d3d3d;
+    transform: scale(0.99);
+}
+
+.centrifiedcontainer {
+    text-align: center;
+    width: 100%;
+    /* background-color: rgb(241, 241, 241); */
+    background-color: rgb(245, 245, 245);
+    transition: all 1.5s ease 0s;
+    transform: translateY(-7px);
+}
+
+.quotes {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+    typing 4s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+.author {
+    transition: all 0.3s ease 0s;
+    transform: translateY(20px);
+}
+
+body {
+    font-family: 'Comfortaa', sans-serif;
+    /* background-color: rgb(255, 255, 255); */
+    /* background-color: rgb(241, 241, 241); */
+    /*text-transform: lowercase; */
+    /* background-color: #ffffff; */
+    /* background-color: #f1f1f1; */
+    background-color: rgb(245, 245, 245);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%239f9f9f' fill-opacity='0.27'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+
+
+
+
+.twilogodiv {
+    transition: all 1.5s ease 0s;
+    -ms-transform: translateY(-7px);
+    -webkit-transform: translateY(-7px);
+    display: inline-block;
+    height: 100%;
+    opacity: 0.6;
+    white-space: nowrap;
+    vertical-align: middle;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    justify-content: center;
+    text-align: center;
+background: #5433FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.twilogobird {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    line-height: 100%;
+    display: inline-block;
+    height: 100%;
+    margin: 25%;
+    vertical-align: middle;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
+
+.centrifiedcontainerhome {
+    text-align: center;
+    width: 100%;
+    /* background-color: rgb(241, 241, 241); */
+    /* background-color: rgb(245, 245, 245); */
+
+    transition: all 1.5s ease 0s;
+    transform: translateY(-7px);    
+}
+
+.tweetinputdiv {
+    margin-bottom: 100px;
+}
+
+.tweetinput {
+border-radius: 12px;
+border-color: #d3d3d3;
+margin-top: 20px;
+margin-bottom: 20px;
+font-weight: 400;
+color: #2c2c2c;
+text-transform: none;
+}
+
+ /* To customize text area icon */
+ /* ::-webkit-resizer {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-radius: 35px 0px 0 1px;
+    
+    border-width: 0 0 200px 200px;
+    border-color: transparent transparent #e6e6e6 transparent;
+}  */
+
+.form-control:focus {
+    border-color: #ffffff;
+    /* box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(99, 98, 98, 0.6); */
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  }
+
+.tweetbtn {
+float: right;
+width: 140px;
+height: 45px;
+    /* text-transform: uppercase; */
+    /*text-transform: lowercase;*/
+  letter-spacing: 2px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  transform: translateY(-7px);
+  -ms-transform: translateY(-7px);
+  -webkit-transform: translateY(-7px);
+  outline: none;
+    margin-top: 0.5em;
+    background-color: #000000;
+    box-shadow: 0px 5px 5px rgba(116, 116, 116, 0.4);
+    /* background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4); */
+    color: #fff;
+
+}
+
+.tweetbtn:hover {
+    background-color: #3d3d3d;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    transform: scale(0.99);
+}
+
+.tweet {
+    border-radius: 15px;
+    text-align: start;
+    /* border-top: 1px solid rgb(214, 214, 214); */
+    background-color: white;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid rgba(214, 214, 214, 0);
+    text-transform: none;
+    padding-top: 10px;
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
+    padding-bottom: 20px;
+    min-height: 90px;
+/*    transition: none !important;
+    transform: translateY(-7px);*/
+}
+
+.tweet:hover {
+    border: 1px solid rgb(214, 214, 214);
+    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px; */
+}
+
+.dropdown {
+    /*text-transform: lowercase;*/
+}
+
+#tweetcontent {
+    width: 100%;
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.tweetimg {
+    width: auto;
+    border-radius: 15px;
+}
+
+.tweetimg2 {
+    width: 16.9rem;
+    margin-left: 2px;
+    border-radius: 15px;
+}
+
+@media screen and (min-width: 300px) {
+    .tweetimg2 {
+        width: 10.2rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .tweetimg2 {
+        width: 16.9rem;
+    }
+}
+
+
+
+
+.twoimgrow {
+display: flex;
+flex-direction: row-reverse;
+text-align: center;
+}
+
+.navbartop {
+    height: 50px;
+    /* margin-top: 40px; */
+    /* width: 50px; */
+    width: 100%;
+}
+
+.twilogobirdnavbar {
+    visibility: hidden;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    line-height: 100%;
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    height: 35px;
+    /* width: 35px; */
+    width: 100%;
+    align-items: center;
+}
+
+.twinimallogo {
+    height: 40px;
+    image-rendering: crisp-edges;
+    margin-top: 15px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000000;
+}
+
+#scrolltopbtn {
+    /* display: none; */
+    border-radius: 30px;
+    opacity: 0;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    background-color: #000000;
+    box-shadow: 0px 5px 5px rgba(116, 116, 116, 0.4);
+    /* background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4); */
+    color: #fff;
+  }
+  
+  #scrolltopbtn:hover {
+    background-color: #3d3d3d;
+  }
+
+  .tweetoptionicon {
+      float: right;
+      color: rgb(119, 119, 119);
+      cursor: pointer;
+  }
+
+  /* Screensize container adjustment */
+  @media screen and (min-width: 700px) {
+    .centrifiedcontainerhome {
+        width: 600px;
+    }
+}
+
+.userinfodiv {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: fit-content;
+    padding: 5px;
+}
+
+.usernamediv {
+    margin-inline-start: 15px;
+    margin-block-start: 3px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: small;
+}
+
+#profilepic {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.mention {
+    color: blue;
+}
+  
+.hashtag {
+    color: blue
+}
+  
+.footer {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    bottom: 0;
+}
+
+.bookmarkbtn {
+  letter-spacing: 2px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  transform: translateY(-7px);
+  -ms-transform: translateY(-7px);
+  -webkit-transform: translateY(-7px);
+  outline: none;
+    margin-top: 0.5em;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 5px rgba(116, 116, 116, 0.4);
+    /* background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4); */
+    color: #000000;
+}
